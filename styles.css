@@ -7,6 +7,8 @@ body{
     background-color: #cccccc;
 }
 
+/*header css*/
+
 header {
     display: flex;
     flex-direction: column;
@@ -18,12 +20,15 @@ header {
 .header-container{
     max-width: 100%;
     height: auto;
+    /*ask about margin for the image*/
 }
 
 header h1{
     color: #97bf04;
     font-size: 150%;
 }
+
+/*nav css*/
 
 nav{
     margin: 0%;
@@ -35,4 +40,27 @@ nav ul{
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    list-style-type: none;
+}
+
+nav li{
+    margin-top: 1rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid #97bf04;
+    background-color: #d9043d;
+}
+
+nav li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+/*main css*/
+
+main h2{
+    text-align: center;
 }
