@@ -63,4 +63,18 @@ nav li a{
 
 main h2{
     text-align: center;
+    padding: 1rem;
 }
+
+main figure{
+    background-color: white;
+    padding: 2rem;
+}
+
+main img{
+    width: 100%;
+    max-width: 650px;
+    border-bottom: 10px solid #97bf04;
+}
+
+/*footer*/
