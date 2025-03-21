@@ -20,7 +20,7 @@ header {
 .header-container{
     max-width: 100%;
     height: auto;
-    /*ask about margin for the image*/
+    padding: 1rem;
 }
 
 header h1{
