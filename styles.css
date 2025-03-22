@@ -88,25 +88,6 @@ footer{
 }
 
 @media screen and (min-width: 768px){
-    nav{
-        display: flex;
-        flex-direction: row;
-        background-color: #d9043d;
-        width: 100%;
-        justify-content: center;
-        text-align: center;
-        padding: 0;
-        margin-bottom: 0;
-    }
-
-    nav ul{
-        display: flex;
-        flex-direction: row;
-        padding: 0;
-        margin: 0;
-        list-style-type: none;
-    }
-
     nav li{
         border-style: none;
         padding-top: 0;
@@ -136,11 +117,6 @@ footer{
     #gallery-container{
         display: grid;
         grid-template-columns: repeat(3,1fr);
-    }
-
-    #gallery-container figure:last-child{
-        grid-column: span 2;
-        justify-content: center;
     }
 
     footer{
