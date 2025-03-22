@@ -130,3 +130,19 @@ footer{
         padding: 2rem;
     }
 }
+
+@media screen and (min-width: 1000px){
+    #gallery-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    #gallery-container figure:last-child{
+        grid-column: span 2;
+        justify-content: center;
+    }
+
+    footer{
+        padding: 2rem;
+    }
+}
