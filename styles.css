@@ -90,5 +90,19 @@ footer{
     nav{
         display: flex;
         flex-direction: row;
+        background-color: #d9043d;
+        width: 100%;
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
     }
 }
