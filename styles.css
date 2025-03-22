@@ -105,4 +105,9 @@ footer{
         margin: 0;
         list-style-type: none;
     }
+
+    nav li{
+        border-style: none;
+        padding-top: 0;
+    }
 }
